@@ -1,0 +1,14 @@
+When would we choose one over the other? 
+
+Choose an Abstract Class When:
+
+
+    Abstract classes can contain concrete methods, allowing you to provide a base implementation that subclasses can inherit or override. This promotes code reusability and avoids duplication.
+    Abstract classes can have instance variables, allowing you to define and manage shared state among subclasses.
+    If you may need to change your design: Adding new methods to an interface forces all implementing classes to implement them, potentially breaking existing code. 
+
+Choose an Interface When:
+
+    Interfaces are best for defining a contract that multiple unrelated classes can implement
+    Java does not support multiple inheritance of classes, but a class can implement multiple interfaces, allowing you to achieve a similar effect.
+    Interfaces focus solely on defining behavior (methods), not implementation details. This can lead to cleaner and more focused designs while still giving flexiblity. 
